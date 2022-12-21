@@ -16,6 +16,7 @@ import com.zaxxer.hikari.HikariDataSource;
 @ComponentScan(basePackages = {"org.zerock.sample"})
 public class RootConfig {
 
+	
 	@Bean
 	public DataSource dataSource() {
 		HikariConfig hikariConfig = new HikariConfig();
